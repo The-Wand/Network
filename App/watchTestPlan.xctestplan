@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "FCB4FFEF-D96A-443D-9BB1-39586E19863B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "locationScenario" : {
+      "identifier" : "Tokyo, Japan",
+      "referenceType" : "built-in"
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:WandFoundation.xcodeproj",
+      "identifier" : "613966142BE0F4EF004C18A3",
+      "name" : "WatchPlay"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:WandNetwork.xcodeproj",
+        "identifier" : "613966472BE0F87A004C18A3",
+        "name" : "watchPlayTests"
+      }
+    }
+  ],
+  "version" : 1
+}
