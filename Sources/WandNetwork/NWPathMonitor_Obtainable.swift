@@ -27,9 +27,19 @@ import Wand
 extension NWPathMonitor: Obtainable {
     
     public
+    typealias InterfaceType = NWInterface.InterfaceType
+    
+    @inlinable
+    public
     static
     func obtain(by wand: Core?) -> Self {
-        .init()
+        if let required: InterfaceType = wand?.get() {
+            Self.init(requiredInterfaceType: required)
+        } else if let prohibited: [InterfaceType] = wand?.get() {
+                Self.init(prohibitedInterfaceTypes: prohibited)
+        } else {
+            Self.init()
+        }
     }
 
 }

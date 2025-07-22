@@ -49,23 +49,20 @@ import Wand
 extension XCTestCase {
     
     @MainActor
-    func auto_test<T: AskingNil>(completion:  @escaping (T)->() ) {
-        auto_test(|, completion: completion)
-    }
-
-    @MainActor
-    func auto_test<T: AskingNil>(_ api:   ( @escaping (T)->() )->(Core) ,
-                               completion:  @escaping (T)->() ) {
-
+    func auto_test<T: AskingNil>(_ type: T.Type) {
+        
         let e = expectation()
         e.assertForOverFulfill = true
-
-        _ = api({ (t: T) in
+        
+        _ = |.one { (object: T) in
+            
             e.fulfill()
-            completion(t)
-        })
+            print("✅ \(object)")
+            
+        }
 
         waitForExpectations(timeout: .default)
+        
     }
 
 }

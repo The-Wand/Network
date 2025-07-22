@@ -28,11 +28,7 @@ class NWPath_Tests: XCTestCase {
 
     @MainActor
     func test_NWPath() {
-        
-        auto_test { (path: NWPath) in
-            print("✅ \(path)")
-        }
-        
+        auto_test(NWPath.self)
     }
 
 }
