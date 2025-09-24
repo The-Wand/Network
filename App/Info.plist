@@ -15,18 +15,18 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.1</string>
+	<string>2.0.10</string>
 	<key>CFBundleVersion</key>
-	<string>419</string>
+	<string>420</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>testing 🧑‍💻</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>testing 🧑‍💻</string>
 	<key>NSCameraUsageDescription</key>
 	<string>testing 🧑‍💻</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>testing 🧑‍💻</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>testing 🧑‍💻</string>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>testing 🧑‍💻</string>
-	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>testing 🧑‍💻</string>
 	<key>UILaunchStoryboardName</key>
 	<string></string>
