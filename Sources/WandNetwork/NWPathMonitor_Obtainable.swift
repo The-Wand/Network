@@ -17,7 +17,9 @@
 /// El Machine 🤖
 
 #if canImport(Network)
+@_exported
 import Network
+@_exported
 import Wand
 
 /// Obtain

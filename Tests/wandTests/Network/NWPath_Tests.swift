@@ -28,8 +28,29 @@ class NWPath_Tests: XCTestCase {
 
     @MainActor
     func test_NWPath() {
-        auto_test(NWPath.self)
+        let e = expectation()
+
+        |{ (path: NWPath) in
+            if (path.status == .satisfied) {
+                e.fulfill()
+            }
+        }
+
+        waitForExpectations(timeout: .default)
     }
+
+    //struct NWPath_Tests {
+    //
+    //    @Test
+    //    func test_NWPath()
+    //    throws
+    //    {
+    //        |{ (path: NWPath) in
+    //            try #require(path.status == .satisfied)
+    //        }
+    //    }
+    //
+    //}
 
 }
 
