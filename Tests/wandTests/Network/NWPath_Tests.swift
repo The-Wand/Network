@@ -25,6 +25,14 @@ import WandNetwork
 
 final
 class NWPath_Tests: XCTestCase {
+    
+    override
+    class
+    func setUp() {
+    
+        Log.level = .verbose
+        
+    }
 
     @MainActor
     func test_NWPath() {

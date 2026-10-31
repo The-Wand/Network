@@ -34,11 +34,11 @@ extension NWPathMonitor: Obtainable {
     @inlinable
     public
     static
-    func obtain(by wand: Core?) -> Self {
-        if let required: InterfaceType = wand?.get() {
+    func obtain<C>(with context: C?, by wand: Core?) -> Self {
+        if let required = context as? InterfaceType ?? wand?.get() {
             Self.init(requiredInterfaceType: required)
-        } else if let prohibited: [InterfaceType] = wand?.get() {
-                Self.init(prohibitedInterfaceTypes: prohibited)
+        } else if let prohibited = context as? [InterfaceType] ?? wand?.get() {
+            Self.init(prohibitedInterfaceTypes: prohibited)
         } else {
             Self.init()
         }

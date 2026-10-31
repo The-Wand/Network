@@ -22,7 +22,7 @@ import Network
 @_exported
 import Wand
 
-extension NWPath: AskingNil {
+extension NWPath: Ask.Nil {
     
     @inlinable
     public
@@ -32,7 +32,7 @@ extension NWPath: AskingNil {
         let wand = Wand.Core.to(context)
 
         //Save ask
-        guard wand.append(ask: ask, check: true) else {
+        guard wand + ask else {
             return wand
         }
 
@@ -43,13 +43,17 @@ extension NWPath: AskingNil {
         let queue:  DispatchQueue = wand.get() ?? .main
 
         //Set the cleaner
-        wand.setCleaner(for: ask) {
+        ask & {
             source.cancel()
         }
 
         //Make request
         source.pathUpdateHandler = { [weak wand] path in
-            wand?.add(path)
+            guard let wand else {
+                return
+            }
+                
+            wand +? path
         }
         
         source.start(queue: queue)

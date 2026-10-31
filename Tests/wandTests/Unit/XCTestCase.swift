@@ -49,7 +49,7 @@ import Wand
 extension XCTestCase {
     
     @MainActor
-    func auto_test<T: AskingNil>(_ type: T.Type) {
+    func auto_test<T: Ask.Nil>(_ type: T.Type) {
         
         let e = expectation()
         e.assertForOverFulfill = true
