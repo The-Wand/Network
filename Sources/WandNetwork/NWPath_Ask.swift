@@ -39,8 +39,10 @@ extension NWPath: Ask.Nil {
         //Request for a first time
 
         //Prepare context
-        let source: NWPathMonitor = wand.get()
-        let queue:  DispatchQueue = wand.get() ?? .main
+        let source: NWPathMonitor       = wand.get()
+        let queue:  DispatchQueue       = wand.get() ?? .main
+        
+        let requests: NWPath.Status?    = wand.get()
 
         //Set the cleaner
         ask & {
@@ -52,8 +54,13 @@ extension NWPath: Ask.Nil {
             guard let wand else {
                 return
             }
+            
+            //TODO: Feature? How to avoid unnecessary if in this case
+            if let requests, path.status != requests {
+                return
+            }
                 
-            wand +? path
+            wand + path
         }
         
         source.start(queue: queue)
@@ -62,6 +69,18 @@ extension NWPath: Ask.Nil {
 
     }
     
+}
+
+@inline(__always)
+public
+func | (request: NWPath.Status, ask: Ask<NWPath>) -> Core {
+    Core.to(request) | ask
+}
+
+@inline(__always)
+public
+func | (request: NWPath.Status, handler: @escaping (NWPath)->()) -> Core {
+    Core.to(request) | handler
 }
 
 #endif

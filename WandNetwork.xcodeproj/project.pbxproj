@@ -11,7 +11,7 @@
 		610922312E0941E5000BE884 /* NWPath_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6109222E2E0941E5000BE884 /* NWPath_Tests.swift */; };
 		611B6AD32D81844900FD0BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611B6AD22D81843F00FD0BD1 /* Assets.xcassets */; };
 		611B6AD42D81844900FD0BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611B6AD22D81843F00FD0BD1 /* Assets.xcassets */; };
-		613966272BE0F532004C18A3 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162624528BC8E2A00D63EA5 /* Play.swift */; };
+		613966272BE0F532004C18A3 /* play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162624528BC8E2A00D63EA5 /* play.swift */; };
 		615159132BF76A8C001646EA /* WandNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 61F648C62BEA122900C2625C /* WandNetwork */; };
 		6153E3362C119A8100F42709 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153E3062C119A8100F42709 /* Unit.swift */; };
 		6153E3372C119A8100F42709 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153E3062C119A8100F42709 /* Unit.swift */; };
@@ -20,7 +20,7 @@
 		6153E3652C119A8100F42709 /* Package.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 6153E31E2C119A8100F42709 /* Package.xctestplan */; };
 		6153E3662C119A8100F42709 /* Package.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 6153E31E2C119A8100F42709 /* Package.xctestplan */; };
 		6153E3672C119A8100F42709 /* Package.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 6153E31E2C119A8100F42709 /* Package.xctestplan */; };
-		6162625428BC8E2B00D63EA5 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162624528BC8E2A00D63EA5 /* Play.swift */; };
+		6162625428BC8E2B00D63EA5 /* play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162624528BC8E2A00D63EA5 /* play.swift */; };
 		619435982C0E015C0034554B /* Any_ in Frameworks */ = {isa = PBXBuildFile; productRef = 619435972C0E015C0034554B /* Any_ */; };
 		6194359B2C0E01600034554B /* Any_ in Frameworks */ = {isa = PBXBuildFile; productRef = 6194359A2C0E01600034554B /* Any_ */; };
 		61F648C72BEA122900C2625C /* WandNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 61F648C62BEA122900C2625C /* WandNetwork */; };
@@ -49,14 +49,14 @@
 		612562EB2D7B1E8600C88123 /* NOTICE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTICE.txt; sourceTree = "<group>"; };
 		613966152BE0F4EF004C18A3 /* watchPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613966482BE0F87A004C18A3 /* watchPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		615158E82BF761DC001646EA /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		615158E82BF761DC001646EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		615158E92BF761DC001646EA /* watchInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = watchInfo.plist; sourceTree = "<group>"; };
 		615158EB2BF765A2001646EA /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		615159052BF76666001646EA /* CONTRIB.TXT */ = {isa = PBXFileReference; lastKnownFileType = text; path = CONTRIB.TXT; sourceTree = "<group>"; };
 		6153E3062C119A8100F42709 /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		6153E3072C119A8100F42709 /* XCTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
 		6153E31E2C119A8100F42709 /* Package.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Package.xctestplan; sourceTree = "<group>"; };
-		6162624528BC8E2A00D63EA5 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		6162624528BC8E2A00D63EA5 /* play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = play.swift; sourceTree = "<group>"; };
 		6162624C28BC8E2B00D63EA5 /* Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Play.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6172A0EF2C10A30E00AF925F /* INSPIRATION.TXT */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSPIRATION.TXT; sourceTree = "<group>"; };
 		618D53D12BE3C5120098DB6F /* wandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,8 +138,8 @@
 			children = (
 				611B6AD22D81843F00FD0BD1 /* Assets.xcassets */,
 				61B1B41C2BC9696200BD1F36 /* Entitlements.entitlements */,
-				615158E82BF761DC001646EA /* info.plist */,
-				6162624528BC8E2A00D63EA5 /* Play.swift */,
+				615158E82BF761DC001646EA /* Info.plist */,
+				6162624528BC8E2A00D63EA5 /* play.swift */,
 				618F8F182BEA00D400618E7C /* testPlan.xctestplan */,
 				615158E92BF761DC001646EA /* watchInfo.plist */,
 				618F8F272BEA04BF00618E7C /* watchTestPlan.xctestplan */,
@@ -371,7 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				613966272BE0F532004C18A3 /* Play.swift in Sources */,
+				613966272BE0F532004C18A3 /* play.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6162625428BC8E2B00D63EA5 /* Play.swift in Sources */,
+				6162625428BC8E2B00D63EA5 /* play.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +438,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 427;
+				CURRENT_PROJECT_VERSION = 431;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_HARDENED_RUNTIME = NO;
@@ -500,7 +500,7 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 427;
+				CURRENT_PROJECT_VERSION = 431;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_HARDENED_RUNTIME = NO;
@@ -554,7 +554,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 427;
+				CURRENT_PROJECT_VERSION = 431;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -602,7 +602,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 427;
+				CURRENT_PROJECT_VERSION = 431;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -664,7 +664,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = App/Entitlements.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 427;
+				CURRENT_PROJECT_VERSION = 431;
 				DEVELOPMENT_TEAM = 3XA88Z6FZN;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
@@ -763,7 +763,7 @@
 				CODE_SIGN_ENTITLEMENTS = App/Entitlements.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 427;
+				CURRENT_PROJECT_VERSION = 431;
 				DEVELOPMENT_TEAM = 3XA88Z6FZN;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -837,7 +837,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 427;
+				CURRENT_PROJECT_VERSION = 431;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -891,7 +891,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 427;
+				CURRENT_PROJECT_VERSION = 431;
 				DEVELOPMENT_TEAM = LZSP4Z4B6A;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
